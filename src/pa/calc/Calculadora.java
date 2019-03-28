@@ -12,6 +12,11 @@ public class Calculadora {
 		Oper02 op02 = new Oper02();
 		double res02 = op02.oper(10, 2);
 		System.out.println(res02);
+		
+		
+		Oper404 op404 = new Oper404();
+		double res404 = op404.oper(40, 25);
+		System.out.println(res404);
 
 	}
 
