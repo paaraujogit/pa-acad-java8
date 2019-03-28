@@ -13,6 +13,11 @@ public class Calculadora {
 		double res02 = op02.oper(10, 2);
 		System.out.println(res02);
 
+		
+		//OperMedia - Solution
+		OperMedia opMedia = new OperMedia();
+		double media = opMedia.oper(1,2);
+		System.out.println(media);
 	}
 
 }
