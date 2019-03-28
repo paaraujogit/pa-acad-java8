@@ -17,7 +17,6 @@ public class Calculadora {
 		Oper404 op404 = new Oper404();
 		double res404 = op404.oper(40, 25);
 		System.out.println(res404);
-
 	}
 
 }
