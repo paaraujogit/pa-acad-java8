@@ -15,8 +15,8 @@ public class Calculadora {
 		System.out.println(res02);
 		
 		// OperJP
-		OperJP opMultip = new OperJP();
-		double multi = opMultip.oper(5, 10);
+		OperJP opMulti = new OperJP();
+		double multi = opMulti.oper(5, 10);
 		System.out.println(multi);
 
 
