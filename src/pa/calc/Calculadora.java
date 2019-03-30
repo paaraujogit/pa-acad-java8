@@ -19,6 +19,17 @@ public class Calculadora {
 		double multi = opMultip.oper(5, 10);
 		System.out.println(multi);
 
+
+		
+		//OperMedia - Solution
+		OperMedia opMedia = new OperMedia();
+		double media = opMedia.oper(1,2);
+		System.out.println(media);
+		
+		
+		Oper404 op404 = new Oper404();
+		double res404 = op404.oper(40, 25);
+		System.out.println(res404);
 	}
 
 }
