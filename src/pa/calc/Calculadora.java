@@ -12,6 +12,7 @@ public class Calculadora {
 		// Oper02 - Solution
 		Oper02 op02 = new Oper02();
 		double res02 = op02.oper(10, 2);
+		System.out.println(res02);
 		
 		// OperJP
 		OperJP opMulti = new OperJP();
