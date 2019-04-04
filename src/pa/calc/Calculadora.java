@@ -13,19 +13,16 @@ public class Calculadora {
 		double res02 = op02.oper(10, 2);
 		System.out.println(res02);
 
-		
 		//OperMedia - Solution
 		OperMedia opMedia = new OperMedia();
 		double media = opMedia.oper(1,2);
 		System.out.println(media);
 		
-		
 		Oper404 op404 = new Oper404();
 		double res404 = op404.oper(40, 25);
 		System.out.println(res404);
 		
-		NaoFazNada opNada = new NaoFazNada();
-		System.out.println(opNada.oper(123123, 9237489));
+		Zero opZero = new Zero();
+		System.out.println(opZero.oper(123123, 9237489));
 	}
-
 }

@@ -1,6 +1,6 @@
 package pa.calc;
 
-public class NaoFazNada implements ItfOper{
+public class Zero implements ItfOper{
 
 	@Override
 	public double oper(double op1, double op2) {
